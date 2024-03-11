@@ -1,5 +1,5 @@
 {% set name = "normi" %}
-{% set version = "0.1.1" %}
+{% set version = "0.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/normi-{{ version }}.tar.gz
-  sha256: 666b2be5fe9a34d9ff751b13398c0b09e4a6bca5ffc58917d412681eb689fe34
+  sha256: 1e8aab7b66c370b4933cc394279ea2f8ee209c3724c121f681fa7ebf6a68af96
 
 build:
   noarch: python
